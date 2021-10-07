@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685397990822",
+    "project_id": "veritabani-21ff6",
+    "storage_bucket": "veritabani-21ff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685397990822:android:6a2d9dc1c8115ab8498367",
+        "android_client_info": {
+          "package_name": "com.example.firebasekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685397990822-nbau8jhtodse0o8b0fo1sa437m9slmt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMx-Vywrl2LPWm5VXIW-xj2dZqlKoIMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685397990822-nbau8jhtodse0o8b0fo1sa437m9slmt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

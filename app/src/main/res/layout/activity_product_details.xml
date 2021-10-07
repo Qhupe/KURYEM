@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_screen"
+    android:layout_height="match_parent"
+    tools:context=".productDetails">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/bg_screen"
+        android:orientation="vertical"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            app:cardCornerRadius="200dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/camera">
+
+        <ImageView
+            android:id="@+id/productDetailsPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_screen"
+            android:layout_gravity="center"
+             />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:textColor="@color/white">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+            <TextView
+                android:id="@+id/productNameDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="Ürün Adı"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+            <TextView
+                android:id="@+id/ProductColorsDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="Ürün Özelliği"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+            <TextView
+                android:id="@+id/productPiecesDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="Ürün Adet"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+            <TextView
+                android:id="@+id/productPriceDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="Ürün Fiyatı"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+            <TextView
+                android:id="@+id/productSizeDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="Ürün Özellik"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_screen" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/bg_screen" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Productexplanation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:hint="Ürün Açıklaması"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_screen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/addBasket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fr_screen"
+            android:layout_marginRight="0dp"
+            android:paddingBottom="8dp"
+            android:text="SEPETE EKLE"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
