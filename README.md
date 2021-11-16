@@ -1,2 +1,1 @@
-# KURYEM4
-sa oçlar
+# KURYEM
